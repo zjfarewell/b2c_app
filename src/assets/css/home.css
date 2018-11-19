@@ -1,0 +1,23 @@
+.banner{
+    width: 750px;
+    height: 300px;
+    overflow: hidden;
+}
+.list-hot li{
+    background: #ff0;
+    width: 120px;
+    float: left;
+}
+.list-hot{
+    position: relative;
+    overflow: hidden;
+}
+.list-hot:before{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    content: '';
+    background: #06f;
+}
